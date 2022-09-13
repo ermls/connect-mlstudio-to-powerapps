@@ -9,8 +9,8 @@ Connect a deep learning model from Azure ML Studio to a Power App GUI
 
 [Diabetes Predictor Data Flow Diagram.pdf](https://github.com/ermls/connect-mlstudio-to-powerapps/files/9559305/Diabetes.Predictor.Data.Flow.Diagram.pdf)
 
-3. Deploy a Azure ML Studio Inference pipeline. Note the URI, API Key, and headers which
-will be used later.
+3. Build and deploy the deep learning classifier as an Azure ML Studio Inference pipeline. Note the URI, 
+API Key, and headers which will be used to build the HTTP request for the ML Studio API.
 
 ![1A](https://user-images.githubusercontent.com/83891373/189542792-afe7cf75-be6e-4028-b3ae-5060f1923a0f.jpg)
 
