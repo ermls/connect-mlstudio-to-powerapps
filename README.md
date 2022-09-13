@@ -46,8 +46,14 @@ code to display the result from Power Automate.
 
 ![3C](https://user-images.githubusercontent.com/83891373/189542883-2ca7a56e-bbd4-4197-b0e1-ecb6d0d6f4ef.jpg)
 
-6. Demo of the app in action.
+6. Test App.
 
 ![4A](https://user-images.githubusercontent.com/83891373/189542890-11b4cce9-3258-49c4-a970-219b9519a848.jpg)
 
 ![4B](https://user-images.githubusercontent.com/83891373/189542893-d04d9d73-ce3e-4be2-ab03-27b6fb9fa9d5.jpg)
+
+7. Deploy App.
+
+![5A](https://user-images.githubusercontent.com/83891373/189974415-483a165c-92b1-486d-9e92-0ceefe00578a.jpeg)
+
+![5B](https://user-images.githubusercontent.com/83891373/189974431-fce821fd-a1e7-48a7-b29e-5b8499e986d1.jpeg)
