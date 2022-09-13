@@ -54,6 +54,6 @@ code to display the result from Power Automate.
 
 7. Deploy app.
 
-![5A](https://user-images.githubusercontent.com/83891373/189974415-483a165c-92b1-486d-9e92-0ceefe00578a.jpeg)
+![5A](https://user-images.githubusercontent.com/83891373/189990418-76814429-dd99-43fd-8b21-301d9e1889ef.jpeg)
 
-![5B](https://user-images.githubusercontent.com/83891373/189974431-fce821fd-a1e7-48a7-b29e-5b8499e986d1.jpeg)
+![5B](https://user-images.githubusercontent.com/83891373/189990433-9f5f3af2-86a4-4a71-aec3-9a188965a832.jpeg)
