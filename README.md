@@ -1,7 +1,15 @@
 # connect-mlstudio-to-powerapps
 Connect a deep learning model from Azure ML Studio to a Power App GUI
 
-1. Deploy a Azure ML Studio Inference pipeline. Note the URI, API Key, and headers which
+1. Demo Project Description
+
+[Diabetes Predictor Project Description.pdf](https://github.com/ermls/connect-mlstudio-to-powerapps/files/9559216/Diabetes.Predictor.Project.Description.pdf)
+
+2. Demo Data Flow Diagram
+
+[Diabetes Predictor Data Flow Diagram.pdf](https://github.com/ermls/connect-mlstudio-to-powerapps/files/9559222/Diabetes.Predictor.Data.Flow.Diagram.pdf)
+
+3. Deploy a Azure ML Studio Inference pipeline. Note the URI, API Key, and headers which
 will be used later.
 
 ![1A](https://user-images.githubusercontent.com/83891373/189542792-afe7cf75-be6e-4028-b3ae-5060f1923a0f.jpg)
@@ -10,7 +18,7 @@ will be used later.
 
 ![1C](https://user-images.githubusercontent.com/83891373/189542804-8bdb91df-d0a5-4d02-a87c-78879cef7f79.jpg)
 
-2. Create a Power Automate flow that will be triggered from Canvas Apps. The HTTP step builds endpoint and 
+4. Create a Power Automate flow that will be triggered from Canvas Apps. The HTTP step builds endpoint and 
 authorization headers, and a JSON from the app inputs to send to ML Studio. The Parse JSON step formats
 the output from ML Studio for further processing. The final steps create and format the result from Parse
 JSON into a variable that can be processed by control flow steps and sent to the app for display.
@@ -27,7 +35,7 @@ JSON into a variable that can be processed by control flow steps and sent to the
 
 ![2F](https://user-images.githubusercontent.com/83891373/189542844-2da8976e-cd58-4bdd-ad94-f884a9528a7c.jpg)
 
-3. Canvas App built using text input components for the inputs and label components to
+5. Canvas App built using text input components for the inputs and label components to
 display the output. The "Is Patient Diabetic?" button contains code that initializes the Power Automate
 flow and sends it the features input by the user. The label component at the bottom contains
 code to display the result from Power Automate.
@@ -38,7 +46,7 @@ code to display the result from Power Automate.
 
 ![3C](https://user-images.githubusercontent.com/83891373/189542883-2ca7a56e-bbd4-4197-b0e1-ecb6d0d6f4ef.jpg)
 
-4. Demo of the app in action.
+6. Demo of the app in action.
 
 ![4A](https://user-images.githubusercontent.com/83891373/189542890-11b4cce9-3258-49c4-a970-219b9519a848.jpg)
 
